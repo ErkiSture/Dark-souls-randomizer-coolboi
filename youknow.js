@@ -572,7 +572,7 @@ function randomizeStats(arr){
     const shuffled = [...arr].sort((a, b) =>  0.5 - Math.random());
     document.getElementById("statLabel").innerHTML = shuffled.slice(0, howManyStats).join(" ");
     document.getElementById("statLabel").style.color = "rgb(222, 15, 91)";
-    if(isNaN(minValue) == true || isNaN(maxValue) == true || minValue > maxValue){
+    if(isNaN(minValue) == true || isNaN(maxValue) == true){
         document.getElementById("statLabel").innerHTML = "select limits";
         document.getElementById("statLabel").style.color = "rgb(146, 13, 60)";
     }
