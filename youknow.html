@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/youknow.css">
+</head>
+<body>
+
+<header>
+    <div class="brandName">Dark souls randomizer</div>
+    <ul class="headerList">
+        <li><a href="https://gurka.se/" target="_blank">Gurka.se</a></li>
+        <li><a href="">hello</a></li>
+        <li>bild?</li>
+    </ul>
+</header>
+<main>
+    <section class="firstSection">
+        <div class="weaponRandomizer">Weapon Randomizer</div>
+        <hr>
+        <label id="weaponLabel">...</label>
+        <button onclick="randomizeWeapon()" class="randomizeWeaponBtn">Random Weapon</button>    
+        <div class="statRandomizer">Stat Randomizer</div>
+        <hr>
+        <label id="statLabel">...</label>
+        </div>
+        <button onclick="randomizeStats(allStats)" class="randomizeStatBtn">Randomize Stats</button>
+    </section>
+    <section class="section2">
+        <div class="dropdown">
+            <div id="numberTitle">någonting</div>
+            <ul id="numberDropdownContent">
+                <li onclick="selectMin(1)">1</li>
+                <li onclick="selectMin(2)">2</li>
+                <li onclick="selectMin(3)">3</li>
+                <li onclick="selectMin(4)">4</li>
+                <li onclick="selectMin(5)">5</li>
+                <li onclick="selectMin(6)">6</li>
+                <li onclick="selectMin(7)">7</li>
+                <li onclick="selectMin(8)">8</li>
+                <li onclick="selectMin(9)">9</li>
+            </ul>
+        </div>
+        <div class="dropdown2">
+            <div id="numberTitle2">någonting</div>
+            <ul id="numberDropdownContent2">
+                <li onclick="selectMax(1)">1</li>
+                <li onclick="selectMax(2)">2</li>
+                <li onclick="selectMax(3)">3</li>
+                <li onclick="selectMax(4)">4</li>
+                <li onclick="selectMax(5)">5</li>
+                <li onclick="selectMax(6)">6</li>
+                <li onclick="selectMax(7)">7</li>
+                <li onclick="selectMax(8)">8</li>
+                <li onclick="selectMax(9)">9</li>
+            </ul>
+        </div>
+    </section>
+</main>
+<footer>
+
+</footer>
+<script src="js/youknow.js"></script>
+</body>
+</html>
