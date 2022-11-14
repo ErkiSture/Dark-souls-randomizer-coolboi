@@ -547,12 +547,16 @@ console.log(cap(['hello', 'world']));  */
 
 //weapon randomizer
 
-const daggers = ["Dagger", "Royal Dirk", "Black Flamestone Dagger", "Parrying Dagger", "Bandit's Knife", "Mytha's Bent Blade", "Shadow Dagger", "Thief Dagger", "Broken Thief Sword", "Manikin Knife", "Umbral Dagger", "Blue Dragon", "Retainer's Short Sword"]
+const daggers = ["Dagger", "Royal Dirk", "Black Flamestone Dagger", "Parrying Dagger", "Bandit's Knife", "Mytha's Bent Blade", "Shadow Dagger", "Thief Dagger", "Broken Thief Sword", "Manikin Knife", "Umbral Dagger", "Blue Dragon", "Retainer's Short Sword"];
+const straightSwords = ["Shortsword", "Longsword", "Yellow Quartz Longsword", "Black Dragon Sword", "Broken Straight Sword", "Broadsword", "Foot Soldier Sword", "Varangian Sword", "Heide Knight Sword", "Blue Flame", "Red Rust Sword", "Sun Sword", "Drakekeeper's Sword", "Puzzling Stone Sword", "Ashen Warrior Sword", "Fume Sword", "Possessed Armor Sword", "Ivory Straight Sword"];
+const greatswords = ["Bastard Sword", "Bluemoon Greatsword", "Claymore", "Flamberge", "Drangleic Sword", "Thorned Greatsword", "Moonlight Greatsword", "Mastodon Greatsword", "Ruler's Sword", "Mirrah Greatsword", "Old Mirrah Greatsword", "Black Dragon Greatsword", "Black Knight Greatsword", "Royal Greatsword", "Old Knight Greatsword", "Defender Greatsword", "Watcher Greatsword", "Key to the Embedded", "Drakeblood Greatsword", "Majestic Greatsword", "Charred Loyce Greatsword", "Loyce Greatsword", "Greatsword of the Forlorn"];
+const ultraGreatswords = ["Pursuer's Ultra Greatsword", "Zweihander", "Drakewing Ultra Greatsword", "King's Ultra Greatsword", "Drakekeeper's Ultra Greatsword", "Old Knight Ultra Greatsword", "Black knight Ultra Greatsword", "Greatsword", "Smelter Sword", "Crypt Blacksword", "Lost Sinner's Sword", "Fume Ultra Greatsword", "Aged Smelter Sword", "Ivory King Ultra Greatsword"];
+const curvedSwords = [];
 const lances = ["Heide Lance", "Heide Greatlance", "Grand Lance", "Chariot Lance", "Rampart Golem Lance"];
 const greatbows = ["Alonne Greatbow", "Dragonslayer Greatbow", "Possessed Armor Greatbow", "Twin-headed Greatbow"];
 let allWeapons = [];
 
-allWeapons.push(...daggers, ...lances, ...greatbows);
+allWeapons.push(...daggers, ...lances, ...greatbows, ...straightSwords, ...greatswords, ...ultraGreatswords);
 
 function randomizeWeapon(){
     //document.querySelector('#weaponLabel').style.color = '';
