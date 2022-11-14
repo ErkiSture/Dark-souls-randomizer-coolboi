@@ -5,7 +5,7 @@
 }
 body{
     background-color: var(--body-color);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -130,7 +130,7 @@ hr{
 
 
 /* stat section */
-main{
+.section1{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -227,23 +227,10 @@ main .statRandoKnapp button:hover{
 
 
 
+/* Section 2 */
 
 
 
-
-/* ul li{
-    display: inline-block;
-}
-ul li ul.dropdown li{
-    display: block;
-}
-ul li ul.dropdown{
-    position: absolute;
-    display: none;
-}
-li:hover ul.dropdown{
-    display:block;
-} */
 
 
 /* footer */
